@@ -3,8 +3,9 @@
 @use "./base/fonts";
 @use "./base/mixins" as *;
 
-@import "../../icons/style";
-
-body {
-  background-color: $pink;
+.rectangle {
+  position: absolute;
+  background-color: purple;
+  transition: all 300ms;
+  transform: translate(-50%, -50%);
 }

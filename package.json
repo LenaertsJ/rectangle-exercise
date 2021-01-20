@@ -13,7 +13,7 @@
     "clean": "rm -rf ./build/ ./.cache",
     "sass-prod": "sass ./src/css/style.scss build/css/style.css --no-source-map --style=compressed",
     "js-prod": "parcel build ./src/js/index.js --out-dir ./build/js --out-file bundle.js  --no-source-maps",
-    "deploy": "surge . --domain https://david-nieuwjaar.surge.sh"
+    "deploy": "surge . --domain https://####-#####.surge.sh"
   },
   "keywords": [],
   "author": "",
@@ -22,5 +22,8 @@
     "babel-core": "^6.26.3",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "randomcolor": "^0.6.2"
   }
 }
