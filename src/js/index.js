@@ -66,7 +66,7 @@ class Rectangle {
   changeBgColor() {
     this._ref.onclick = () => {
       this._ref.style.backgroundColor = randomColor();
-      this.setStyling();
+      // this.setStyling();
     };
   }
 
